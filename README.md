@@ -1,7 +1,7 @@
 <div align="center">
 <h1> Point-DETR3D </h1>
 
-<div><a href="https://arxiv.org/abs/2403.15317">[Paper] </a></div> 
+<div><a href="https://arxiv.org/abs/2403.15317">📄[Paper] </a></div> 
 
 ------
 
