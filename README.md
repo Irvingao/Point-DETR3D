@@ -1,6 +1,27 @@
-# Point-DETR3D
+<div align="center">
+<h1> Point-DETR3D </h1>
+<h3>Leveraging Imagery Data with Spatial Point Prior for Weakly Semi-Supervised 3D Object Detection
+</h3>
+<br>Hongzhi Gao, Zheng Chen, Zehui Chen, LinChen, Jiaming Liu, Shanghang Zhang, Feng Zhao
+<br>
 
-This repo implements the paper Point-DETR3D: Leveraging Imagery Data with Spatial Point Prior for Weakly Semi-Supervised 3D Object Detection.
+<div><a href="https://arxiv.org/pdf/2211.09386.pdf">[Paper] </a></div> 
+
+------
+
+<center>
+<img src='docs/Poster4x3.png'>
+</center>
+
+</div>
+
+## NOTE
+
+This code is an initial release with Point-DETR3D only.
+
+# 📚Quick Start 
+
+This is the official implementation of Point-DETR3D.
 
 We built our implementation upon MMdetection3D 0.17.3. The major part of the code is in the directory `project`.
 
@@ -55,8 +76,8 @@ bash tools/dist_train.sh projects/configs/wss_sp_ctpt/centerpoint_01voxel_second
 ```
 
 - (2) Prepare pretrained backbone weights to `ckpts/`:
-    - image backbone: [FCOS3D_r50](download_link)
-    - lidar backbone: CenterPoint (Trained at step (1).)
+  - image backbone: [FCOS3D_r50](download_link)
+  - lidar backbone: CenterPoint (Trained at step (1).)
 
 fuse pretrained weights by running:
 
