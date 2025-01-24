@@ -1,11 +1,7 @@
 <div align="center">
 <h1> Point-DETR3D </h1>
-<h3>Leveraging Imagery Data with Spatial Point Prior for Weakly Semi-Supervised 3D Object Detection
-</h3>
-<br>Hongzhi Gao, Zheng Chen, Zehui Chen, LinChen, Jiaming Liu, Shanghang Zhang, Feng Zhao
-<br>
 
-<div><a href="https://arxiv.org/pdf/2211.09386.pdf">[Paper] </a></div> 
+<div><a href="https://arxiv.org/abs/2403.15317">[Paper] </a></div> 
 
 ------
 
